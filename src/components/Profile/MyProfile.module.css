@@ -1,0 +1,23 @@
+
+  .myProfile{
+    width: 40%;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+    background-color: white;
+    margin-top: 40px;
+    }
+    
+    .myProfile h2{
+      text-align: left;
+    }
+    .myProfile p{
+      text-align: right;
+    }
+    .myProfile h1{
+      text-align: center;
+    }

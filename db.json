@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "Kunal",
+      "AccountNumber": "12345678",
+      "Password": "Kunal123",
+      "AccountType": "Savings",
+      "State": "Haryana",
+      "City": "Gurgaon",
+      "DateOfBirth": "2021-10-02"
+    },
+    {
+      "id": 2,
+      "Name": "Ankit",
+      "AccountNumber": "12345678",
+      "Password": "Ankit123",
+      "AccountType": "Savings",
+      "State": "Haryana",
+      "City": "Gurgaon",
+      "DateOfBirth": "2021-10-02"
+    },
+    {
+      "Name": "Satyam",
+      "AccountNumber": "654321",
+      "Password": "Satyam123",
+      "AccountType": "Current",
+      "State": "Uttar Pradesh",
+      "City": "Meerut",
+      "DateOfBirth": "2021-04-09",
+      "id": 3
+    },
+    {
+      "Name": "qwert",
+      "AccountNumber": "1234567890",
+      "Password": "123456",
+      "AccountType": "Savings",
+      "State": "Haryana",
+      "City": "Gurgaon",
+      "DateOfBirth": "1995-06-12",
+      "id": 4
+    },
+    {
+      "Name": "Singh",
+      "AccountNumber": "332111212",
+      "Password": "Kunal1@3",
+      "AccountType": "Current",
+      "State": "Punjab",
+      "City": "Amritsar",
+      "DateOfBirth": "2022-02-23",
+      "id": 5
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 1,
+      "id": 1,
+      "tType": "Deposit",
+      "Amount": 12000,
+      "Date": "10/10/2020",
+      "Description": "Salary"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "tType": "Withdrawal",
+      "Amount": 2000,
+      "Date": "10/10/2020",
+      "Description": "Rent"
+    },
+    {
+      "userId": 2,
+      "id": 3,
+      "tType": "Deposit",
+      "Amount": 20000,
+      "Date": "10/10/2020",
+      "Description": "Salary"
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "tType": "Withdrawal",
+      "Amount": 7000,
+      "Date": "10/10/2020",
+      "Description": "Rent"
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "tType": "Deposit",
+      "Amount": 12000,
+      "Date": "10/10/2020",
+      "Description": "Salary"
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "tType": "Withdrawal",
+      "Amount": 2000,
+      "Date": "10/10/2020",
+      "Description": "Rent"
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "tType": "Deposit",
+      "Amount": 20000,
+      "Date": "10/10/2020",
+      "Description": "Salary"
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "tType": "Withdrawal",
+      "Amount": 7000,
+      "Date": "10/10/2020",
+      "Description": "Rent"
+    },
+    {
+      "userId": 3,
+      "tType": "Deposit",
+      "Amount": 20000,
+      "Date": "10/10/2020",
+      "Description": "Salon",
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "tType": "Withdraw",
+      "Amount": 1200,
+      "Date": "10/10/2020",
+      "Description": "Hair Cut",
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "tType": "Deposit",
+      "Amount": 2300,
+      "Date": "10/10/2020",
+      "Description": "Salon",
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "tType": "Deposit",
+      "Amount": 56,
+      "Date": "10/10/2020",
+      "Description": "Hair Cut",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "tType": "Deposit",
+      "Amount": 23000,
+      "Date": "10/10/2020",
+      "Description": "Room",
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "tType": "Deposit",
+      "Amount": 20,
+      "Date": "23/1/2022",
+      "Description": "Hair Cut",
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "tType": "Deposit",
+      "Amount": 5000,
+      "Date": "23/1/2022",
+      "Description": "Room",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "tType": "Deposit",
+      "Amount": 2000,
+      "Date": "23/1/2022",
+      "Description": "removing 2000",
+      "id": 16
+    }
+  ]
+}

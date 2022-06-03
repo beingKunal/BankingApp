@@ -1,0 +1,60 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #999; */
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /* .logout {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ec545c;
+    border: none;
+    border-radius: 15px;
+   
+  } */
+  
+  /* .logout:hover {background-color: #3e8e41}
+  
+  .logout:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } */
+
+  button:disabled,button:disabled:hover,button:disabled:active{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(27, 5, 5);
+    background-color: #daf8db;
+    border: none;
+    border-radius: 15px;
+    cursor: not-allowed;
+  }
